@@ -1,0 +1,65 @@
+/* Css for the profile related page goes here...*/
+
+
+.float_left{
+    float: left;
+}
+
+.float_right{
+    float: right;
+}
+
+.profile_label.float_left label{
+    display: block;
+    padding-right: 20px;
+}
+
+.profile_label label, .profile_values h5{
+ 	display: block;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.profile_img img{
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.info_sect div h5 span{
+	padding-right: 5px;
+}
+
+.info_sect{
+	padding: 15px 0px 10px 0px;
+}
+
+.see_details_link a{
+	float: right;
+}
+
+.see_details_link:hover{
+	color: yellow;
+}
+
+table{
+	width: 700px;
+}
+
+table .profile_img{
+	width: 20%;
+}
+
+table .profile_info_txt{
+	width: 80%;
+}
+
+table .info_sect{
+	width: 50%;
+	float: left;
+}
+
+table#display_searched_profiles tr {
+	border-bottom: orange 2px solid;
+}
